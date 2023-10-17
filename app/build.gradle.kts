@@ -31,6 +31,8 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:designsystem"))
+
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.corektx)
     implementation(libs.androidx.material)
