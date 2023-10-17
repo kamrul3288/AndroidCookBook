@@ -19,3 +19,5 @@ local.properties
 /.idea/vcs.xml
 /.idea/misc.xml
 /.idea/kotlinc.xml
+/build-logic/convention/build/
+/.idea/
