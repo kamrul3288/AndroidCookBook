@@ -44,32 +44,31 @@
     <color name="success99">#C0FCC0</color>
 
 
-    <color name="black">#000000</color>
-    <color name="black10">#1A1A1A</color>
-    <color name="black20">#333333</color>
-    <color name="black30">#4D4D4D</color>
-    <color name="black40">#666666</color>
+    <color name="black">#FFFFFF</color>
+    <color name="black10">#E6E6E6</color>
+    <color name="black20">#CCCCCC</color>
+    <color name="black30">#B3B3B3</color>
+    <color name="black40">#999999</color>
     <color name="black50">#808080</color>
-    <color name="black60">#999999</color>
-    <color name="black70">#B3B3B3</color>
-    <color name="black80">#CCCCCC</color>
-    <color name="black90">#E6E6E6</color>
-    <color name="black95">#F2F2F2</color>
-    <color name="black99">#FCFCFC</color>
+    <color name="black60">#666666</color>
+    <color name="black70">#4D4D4D</color>
+    <color name="black80">#333333</color>
+    <color name="black90">#1A1A1A</color>
+    <color name="black95">#0D0D0D</color>
+    <color name="black99">#030303</color>
 
-
-    <color name="white">#FFFFFF</color>
-    <color name="white10">#E6E6E6</color>
-    <color name="white20">#CCCCCC</color>
-    <color name="white30">#B3B3B3</color>
-    <color name="white40">#999999</color>
+    <color name="white">#000000</color>
+    <color name="white10">#1A1A1A</color>
+    <color name="white20">#333333</color>
+    <color name="white30">#4D4D4D</color>
+    <color name="white40">#666666</color>
     <color name="white50">#808080</color>
-    <color name="white60">#666666</color>
-    <color name="white70">#4D4D4D</color>
-    <color name="white80">#333333</color>
-    <color name="white90">#1A1A1A</color>
-    <color name="white95">#0D0D0D</color>
-    <color name="white99">#030303</color>
+    <color name="white60">#999999</color>
+    <color name="white70">#B3B3B3</color>
+    <color name="white80">#CCCCCC</color>
+    <color name="white90">#E6E6E6</color>
+    <color name="white95">#F2F2F2</color>
+    <color name="white99">#FCFCFC</color>
 
 
 </resources>
