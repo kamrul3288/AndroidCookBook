@@ -27,3 +27,5 @@ dependencyResolutionManagement {
 rootProject.name = "AndroidCookBook"
 include(":app")
 include(":core:designsystem")
+include(":common")
+include(":core:ui")

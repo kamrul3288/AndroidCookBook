@@ -28,6 +28,8 @@ android {
 }
 
 dependencies {
+    implementation(project(":common"))
+    implementation(project(":core:ui"))
     implementation(project(":core:designsystem"))
 
     implementation(libs.androidx.appcompat)
