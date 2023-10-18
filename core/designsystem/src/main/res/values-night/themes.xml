@@ -6,5 +6,7 @@
         <item name="android:colorAccent">@color/primary</item>
         <item name="android:statusBarColor">@color/white10</item>
         <item name="android:windowLightStatusBar">false</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="fontFamily">@font/inter_regular</item>
     </style>
 </resources>
