@@ -70,5 +70,5 @@
     <color name="white95">#F2F2F2</color>
     <color name="white99">#FCFCFC</color>
 
-
+    <color name="card_bg">@color/black90</color>
 </resources>

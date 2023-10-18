@@ -17,8 +17,13 @@ dependencies {
     implementation(libs.androidx.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.fragment)
+    implementation(libs.androidx.cardview)
+    implementation(libs.androidx.constraintlayout)
+
+
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.kotlinx.coroutines.android)
+
 
 
     testImplementation(libs.test.junit)

@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.AndroidCookBook" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:colorPrimary">@color/primary</item>
@@ -6,8 +6,12 @@
         <item name="android:colorAccent">@color/primary</item>
         <item name="android:statusBarColor">@color/white</item>
         <item name="android:windowLightStatusBar">true</item>
+
         <item name="android:fontFamily">@font/inter_regular</item>
         <item name="fontFamily">@font/inter_regular</item>
+
+        <!--card color-->
+        <item name="colorSurface">@color/white</item>
     </style>
 
     <style name="Theme.AndroidCookBook" parent="Base.Theme.AndroidCookBook" />
