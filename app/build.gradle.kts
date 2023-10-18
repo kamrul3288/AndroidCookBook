@@ -25,6 +25,10 @@ android {
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
+
+    buildFeatures{
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -35,6 +39,10 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.corektx)
     implementation(libs.androidx.material)
+    implementation(libs.androidx.fragment)
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.recyclerview)
+    implementation(libs.androidx.cardview)
     implementation(libs.androidx.constraintlayout)
 
     testImplementation(libs.test.junit)

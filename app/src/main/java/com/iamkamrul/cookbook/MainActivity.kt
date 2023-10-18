@@ -1,11 +1,15 @@
 package com.iamkamrul.cookbook
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.iamkamrul.cookbook.databinding.ActivityMainBinding
+import com.iamkamrul.ui.base.BaseActivity
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+class MainActivity : BaseActivity<ActivityMainBinding>() {
+    override fun viewBindingLayout(): ActivityMainBinding =
+        ActivityMainBinding.inflate(layoutInflater)
+
+    override fun initializeView(savedInstanceState: Bundle?) {
+
     }
+
 }
