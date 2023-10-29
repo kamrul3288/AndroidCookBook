@@ -26,14 +26,13 @@ class AndroidFeatureConventionPlugin : Plugin<Project> {
             }
 
             dependencies {
-                add("implementation", project(":core:di"))
-                add("implementation", project(":core:domain"))
-                add("implementation", project(":navigation"))
-                add("implementation", project(":core:model:entity"))
-                add("implementation", project(":library:sharedpref"))
+                //add("implementation", project(":core:di"))
+                //add("implementation", project(":core:domain"))
+                //add("implementation", project(":core:model:entity"))
+                //add("implementation", project(":library:sharedpref"))
                 add("implementation", project(":common"))
                 add("implementation", project(":core:ui"))
-                add("implementation", project(":core:design-system"))
+                add("implementation", project(":core:designsystem"))
 
                 add("implementation", libs.findLibrary("androidx.appcompat").get())
                 add("implementation", libs.findLibrary("androidx.corektx").get())
