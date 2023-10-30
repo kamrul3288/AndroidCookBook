@@ -71,4 +71,6 @@
     <color name="white99">#FCFCFC</color>
 
     <color name="card_bg">@color/black90</color>
+    <color name="top_appbar">@color/white10</color>
+
 </resources>
