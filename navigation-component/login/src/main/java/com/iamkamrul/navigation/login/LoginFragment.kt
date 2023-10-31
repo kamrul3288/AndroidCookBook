@@ -10,20 +10,25 @@ import com.iamkamrul.entity.navigation.OtpVerifyArgs
 import com.iamkamrul.navigation.login.databinding.FragmentLoginBinding
 import com.iamkamrul.ui.base.BaseFragment
 import com.iamkamrul.ui.extension.navigate
+import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
-
+@AndroidEntryPoint
 class LoginFragment : BaseFragment<FragmentLoginBinding>() {
-    override fun viewBindingLayout(): FragmentLoginBinding =
-        FragmentLoginBinding.inflate(layoutInflater)
+    override fun viewBindingLayout(): FragmentLoginBinding = FragmentLoginBinding.inflate(layoutInflater)
+
+    @Inject lateinit var gson: Gson
 
     override fun initializeView(savedInstanceState: Bundle?) {
         configureTopAppbar()
+
         binding.loginBtn.setOnClickListener {
             navigate(
                 getString(
                     R.string.deep_link_otp_verify_fragment_args,
-                    Gson().toJson(OtpVerifyArgs("+8801915101010")).encode()
-                ).toUri())
+                    gson.toJson(OtpVerifyArgs("+8801915101010")).encode()
+                ).toUri()
+            )
         }
     }
 

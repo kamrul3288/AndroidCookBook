@@ -36,6 +36,7 @@ dependencies {
     implementation(project(":common"))
     implementation(project(":core:ui"))
     implementation(project(":core:designsystem"))
+    implementation(project(":core:di"))
 
     implementation(project(":navigation-component:login"))
     implementation(project(":navigation-component:otpverify"))
