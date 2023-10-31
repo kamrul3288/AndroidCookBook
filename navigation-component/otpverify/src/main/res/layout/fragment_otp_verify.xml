@@ -29,7 +29,7 @@
     <Button
         android:id="@+id/otpVerifyBtn"
         android:text="Otp Verify Now"
-        style="@style/Widget.App.Button.Filled"
+        style="@style/Widget.App.Filled"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
