@@ -38,6 +38,7 @@ dependencies {
     implementation(project(":core:designsystem"))
 
     implementation(project(":navigation-component:login"))
+    implementation(project(":navigation-component:otpverify"))
 
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.corektx)

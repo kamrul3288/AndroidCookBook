@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deep_link_otp_verify_fragment">app://com.iamkamrul/otp_verify</string>
+</resources>

@@ -18,6 +18,8 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.fragment)
     implementation(libs.androidx.cardview)
+    implementation(libs.androidx.navigation.ui)
+    implementation(libs.androidx.navigation.ktx)
     implementation(libs.androidx.constraintlayout)
 
 

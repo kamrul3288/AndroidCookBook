@@ -5,6 +5,9 @@
     android:id="@+id/nav_graph_main"
     app:startDestination="@id/mainFragment">
 
+    <include
+        app:graph="@navigation/nav_otp_verify"/>
+
     <fragment
         android:id="@+id/mainFragment"
         android:name="com.iamkamrul.cookbook.MainFragment"
@@ -16,7 +19,7 @@
     </fragment>
 
     <fragment
-        android:id="@+id/loginFragment"
+        android:id="@id/loginFragment"
         android:name="com.iamkamrul.navigation.login.LoginFragment"
         tools:layout="@layout/fragment_login"
         android:label="LoginFragment" />

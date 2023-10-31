@@ -7,5 +7,5 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/_56sdp"
     app:titleCentered="true"
-    app:title="@string/app_name" />
+    app:title="@string/application_name" />
 
