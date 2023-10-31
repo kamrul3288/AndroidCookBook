@@ -1,6 +1,5 @@
 package com.iamkamrul.navigation.otpverify
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.core.net.toUri
 import androidx.navigation.fragment.findNavController
