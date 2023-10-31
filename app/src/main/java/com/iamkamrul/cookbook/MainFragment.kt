@@ -1,6 +1,7 @@
 package com.iamkamrul.cookbook
 
 import android.os.Bundle
+import androidx.navigation.fragment.findNavController
 import com.iamkamrul.cookbook.databinding.FragmentMainBinding
 import com.iamkamrul.ui.adapter.FeaturesComponentAdapter
 import com.iamkamrul.ui.base.BaseFragment
@@ -11,7 +12,11 @@ class MainFragment : BaseFragment<FragmentMainBinding>() {
         FragmentMainBinding.inflate(layoutInflater)
 
     private val features = listOf("Navigation", "Material Component")
-    private val adapter by lazy { FeaturesComponentAdapter()}
+    private val adapter by lazy { FeaturesComponentAdapter{position->
+        when(position){
+            0 -> findNavController().navigate(MainFragmentDirections.actionMainFragmentToLoginFragment())
+        }
+    }}
 
     override fun initializeView(savedInstanceState: Bundle?) {
         configureTopAppbar()
@@ -24,6 +29,6 @@ class MainFragment : BaseFragment<FragmentMainBinding>() {
     }
 
     private fun configureTopAppbar(){
-        binding.topAppBarLayout.topAppBar.title = "Home"
+        binding.incTopAppbarLayout.topAppBar.title = "Home"
     }
 }

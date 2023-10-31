@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="iamkamrul.Style.TopAppbar" parent="ThemeOverlay.Material3.Toolbar.Surface">
+    <style name="Widget.App.TopAppbar" parent="ThemeOverlay.Material3.Toolbar.Surface">
         <item name="android:outlineAmbientShadowColor" tools:ignore="NewApi">@color/white50</item>
         <item name="android:outlineSpotShadowColor" tools:ignore="NewApi">@color/white50</item>
         <item name="android:background">@color/top_appbar</item>

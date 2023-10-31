@@ -1,5 +1,6 @@
 plugins {
     id("iamkamrul.android.feature")
+    alias(libs.plugins.org.jetbrains.kotlin.android)
 }
 
 android {

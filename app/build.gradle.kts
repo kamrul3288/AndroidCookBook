@@ -37,6 +37,8 @@ dependencies {
     implementation(project(":core:ui"))
     implementation(project(":core:designsystem"))
 
+    implementation(project(":navigation-component:login"))
+
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.corektx)
     implementation(libs.androidx.material)

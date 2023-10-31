@@ -3,11 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph_main"
-    app:startDestination="@id/mainFragment2">
+    app:startDestination="@id/mainFragment">
 
     <fragment
-        android:id="@+id/mainFragment2"
+        android:id="@+id/mainFragment"
         android:name="com.iamkamrul.cookbook.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.iamkamrul.navigation.login.LoginFragment"
+        tools:layout="@layout/fragment_login"
+        android:label="LoginFragment" />
+
 </navigation>
