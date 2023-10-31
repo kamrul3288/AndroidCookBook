@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavDeepLinkRequest
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.navOptions
+import com.iamkamrul.ui.R
 
 fun Fragment.navigate(
     uri: Uri,
@@ -15,7 +16,10 @@ fun Fragment.navigate(
         NavDeepLinkRequest.Builder.fromUri(uri).build(),
         navOptions = navOptions {
             anim {
-
+                enter = R.anim.slide_in_right
+                exit = R.anim.slide_out_left
+                popEnter = R.anim.slide_in_left
+                popExit = R.anim.slide_out_right
             }
             popupToId?.let {
                 popUpTo(popupToId){
