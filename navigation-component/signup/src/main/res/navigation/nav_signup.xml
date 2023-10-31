@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_signup"
+    app:startDestination="@id/signupFragment">
+
+    <fragment
+        android:id="@+id/signupFragment"
+        tools:layout="@layout/fragment_signup"
+        android:name="com.iamkamrul.navigation.signup.SignupFragment"
+        android:label="SignupFragment">
+
+        <deepLink
+            app:uri="@string/deep_link_signup_fragment"/>
+
+    </fragment>
+</navigation>

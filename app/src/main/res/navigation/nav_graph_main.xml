@@ -5,8 +5,8 @@
     android:id="@+id/nav_graph_main"
     app:startDestination="@id/mainFragment">
 
-    <include
-        app:graph="@navigation/nav_otp_verify"/>
+    <include app:graph="@navigation/nav_otp_verify"/>
+    <include app:graph="@navigation/nav_signup"/>
 
     <fragment
         android:id="@+id/mainFragment"
@@ -22,6 +22,10 @@
         android:id="@id/loginFragment"
         android:name="com.iamkamrul.navigation.login.LoginFragment"
         tools:layout="@layout/fragment_login"
-        android:label="LoginFragment" />
+        android:label="LoginFragment">
+
+        <deepLink
+            app:uri="@string/deep_link_login_fragment"/>
+    </fragment>
 
 </navigation>

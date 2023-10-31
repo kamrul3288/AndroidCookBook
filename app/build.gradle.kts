@@ -39,6 +39,7 @@ dependencies {
 
     implementation(project(":navigation-component:login"))
     implementation(project(":navigation-component:otpverify"))
+    implementation(project(":navigation-component:signup"))
 
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.corektx)
