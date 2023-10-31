@@ -14,6 +14,10 @@
         <deepLink
             app:uri="@string/deep_link_otp_verify_fragment"/>
 
+        <argument
+            android:name="otpVerifyArgs"
+            app:argType="string"/>
+
     </fragment>
 
 

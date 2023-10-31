@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="deep_link_login_fragment">app://com.iamkamrul/login</string>
-    <string name="deep_link_otp_verify_fragment">app://com.iamkamrul/otp_verify</string>
+    <string name="deep_link_otp_verify_fragment">app://com.iamkamrul/otp_verify={otpVerifyArgs}</string>
+    <string name="deep_link_otp_verify_fragment_args">app://com.iamkamrul/otp_verify=%s</string>
     <string name="deep_link_signup_fragment">app://com.iamkamrul/signup</string>
 </resources>
