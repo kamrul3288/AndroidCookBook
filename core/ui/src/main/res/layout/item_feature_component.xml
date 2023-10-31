@@ -6,7 +6,7 @@
     android:layout_marginHorizontal="@dimen/_1sdp"
     android:layout_marginVertical="@dimen/_1sdp"
     android:layout_height="@dimen/_70sdp"
-    style="@style/FilledCard"
+    style="@style/Widget.App.FilledCard"
     xmlns:tools="http://schemas.android.com/tools">
 
     <TextView
