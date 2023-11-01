@@ -29,6 +29,7 @@ android {
 
     buildFeatures{
         viewBinding = true
+        buildConfig = true
     }
 }
 
@@ -42,6 +43,8 @@ dependencies {
     implementation(project(":navigation-component:otpverify"))
     implementation(project(":navigation-component:signup"))
 
+    implementation(project(":features:phonebook"))
+
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.corektx)
     implementation(libs.androidx.material)
@@ -50,6 +53,7 @@ dependencies {
     implementation(libs.androidx.recyclerview)
     implementation(libs.androidx.cardview)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.log.timber)
 
     testImplementation(libs.test.junit)
     androidTestImplementation(libs.test.extjunit)

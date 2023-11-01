@@ -74,4 +74,6 @@
     <color name="card_bg">@color/white</color>
     <color name="top_appbar">@color/white</color>
 
+    <color name="WHITE">#FFFFFF</color>
+
 </resources>

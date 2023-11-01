@@ -1,10 +1,10 @@
 package com.iamkamrul.cookbook
 
 import android.os.Bundle
-import androidx.navigation.fragment.findNavController
 import com.iamkamrul.cookbook.databinding.FragmentMainBinding
 import com.iamkamrul.ui.adapter.FeaturesComponentAdapter
 import com.iamkamrul.ui.base.BaseFragment
+import com.iamkamrul.ui.extension.navigate
 import com.iamkamrul.ui.extension.setUpGridRecyclerViewAdapter
 
 class MainFragment : BaseFragment<FragmentMainBinding>() {
@@ -14,9 +14,9 @@ class MainFragment : BaseFragment<FragmentMainBinding>() {
     private val features = listOf("Navigation", "Material Component", "PhoneBook")
     private val adapter by lazy { FeaturesComponentAdapter{position->
         when(position){
-            0 -> findNavController().navigate(MainFragmentDirections.actionMainFragmentToLoginFragment())
+            0 -> navigate(MainFragmentDirections.actionMainFragmentToLoginFragment())
             1 -> {}
-            2 -> {}
+            2 -> navigate(MainFragmentDirections.actionMainFragmentToContactListFragment())
         }
     }}
 

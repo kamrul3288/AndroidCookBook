@@ -31,6 +31,10 @@ fun Fragment.navigate(
     )
 }
 
+fun Fragment.popBack(){
+    findNavController().popBackStack()
+}
+
 fun Fragment.navigate(direction: NavDirections) {
     val currentNode = (
             if (findNavController().currentBackStack.value.isEmpty()) findNavController().graph

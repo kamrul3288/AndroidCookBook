@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_mainFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_contactListFragment"
+            app:destination="@id/contactListFragment" />
     </fragment>
 
     <fragment
@@ -27,5 +30,11 @@
         <deepLink
             app:uri="@string/deep_link_login_fragment"/>
     </fragment>
+
+    <fragment
+        android:id="@+id/contactListFragment"
+        tools:layout="@layout/fragment_contact_list"
+        android:name="com.iamkamrul.phonebook.ContactListFragment"
+        android:label="ContactListFragment" />
 
 </navigation>
