@@ -15,7 +15,7 @@ class MainFragment : BaseFragment<FragmentMainBinding>() {
     private val adapter by lazy { FeaturesComponentAdapter{position->
         when(position){
             0 -> navigate(MainFragmentDirections.actionMainFragmentToLoginFragment())
-            1 -> {}
+            1 -> navigate(MainFragmentDirections.actionMainFragmentToNavMaterial())
             2 -> navigate(MainFragmentDirections.actionMainFragmentToContactListFragment())
         }
     }}

@@ -44,6 +44,7 @@ dependencies {
     implementation(project(":navigation-component:signup"))
 
     implementation(project(":features:phonebook"))
+    implementation(project(":material-component"))
 
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.corektx)

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_material"
+    app:startDestination="@id/materialHomeFragment">
+
+    <fragment
+        android:id="@+id/materialHomeFragment"
+        android:name="com.iamkamrul.material.MaterialHomeFragment"
+        android:label="fragment_material_home"
+        tools:layout="@layout/fragment_material_home" />
+</navigation>

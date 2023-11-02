@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black95"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaterialHomeFragment">
+
+
+    <include
+        android:id="@+id/incTopAppbar"
+        layout="@layout/top_appbar_center_titled"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/componentRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

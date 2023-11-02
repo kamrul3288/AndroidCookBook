@@ -7,6 +7,7 @@
 
     <include app:graph="@navigation/nav_otp_verify"/>
     <include app:graph="@navigation/nav_signup"/>
+    <include app:graph="@navigation/nav_material"/>
 
     <fragment
         android:id="@+id/mainFragment"
@@ -19,6 +20,9 @@
         <action
             android:id="@+id/action_mainFragment_to_contactListFragment"
             app:destination="@id/contactListFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_nav_material"
+            app:destination="@id/nav_material" />
     </fragment>
 
     <fragment
