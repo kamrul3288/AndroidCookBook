@@ -3,11 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_material"
-    app:startDestination="@id/materialHomeFragment">
+    app:startDestination="@id/menuFragment">
 
     <fragment
         android:id="@+id/materialHomeFragment"
         android:name="com.iamkamrul.material.MaterialHomeFragment"
         android:label="fragment_material_home"
-        tools:layout="@layout/fragment_material_home" />
+        tools:layout="@layout/fragment_material_home" >
+        <action
+            android:id="@+id/action_materialHomeFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/menuFragment"
+        tools:layout="@layout/fragment_menu"
+        android:name="com.iamkamrul.material.MenuFragment"
+        android:label="MenuFragment" />
 </navigation>
