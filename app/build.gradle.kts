@@ -39,12 +39,12 @@ dependencies {
     implementation(project(":core:designsystem"))
     implementation(project(":core:di"))
 
-    implementation(project(":navigation-component:login"))
-    implementation(project(":navigation-component:otpverify"))
-    implementation(project(":navigation-component:signup"))
+    implementation(project(":navigationcomponent:login"))
+    implementation(project(":navigationcomponent:otpverify"))
+    implementation(project(":navigationcomponent:signup"))
 
     implementation(project(":features:phonebook"))
-    implementation(project(":material-component"))
+    implementation(project(":materialcomponent"))
 
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.corektx)

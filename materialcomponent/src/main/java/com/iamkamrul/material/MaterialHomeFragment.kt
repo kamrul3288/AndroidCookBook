@@ -5,6 +5,7 @@ import androidx.navigation.fragment.findNavController
 import com.iamkamrul.material.databinding.FragmentMaterialHomeBinding
 import com.iamkamrul.ui.adapter.FeaturesComponentAdapter
 import com.iamkamrul.ui.base.BaseFragment
+import com.iamkamrul.ui.extension.navigate
 import com.iamkamrul.ui.extension.setUpGridRecyclerViewAdapter
 
 
@@ -14,7 +15,7 @@ class MaterialHomeFragment : BaseFragment<FragmentMaterialHomeBinding>(){
     private val features = listOf("Menu")
     private val adapter by lazy { FeaturesComponentAdapter{position->
         when(position) {
-            0 -> {}
+            0 -> navigate(MaterialHomeFragmentDirections.actionMaterialHomeFragmentToMenuFragment())
         }
     }}
 
