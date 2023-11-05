@@ -23,7 +23,7 @@
         <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
     </style>
 
-    <style name="Widget.App.Filled" parent="Widget.Material3.Button">
+    <style name="Widget.App.Button.Filled" parent="Widget.Material3.Button">
         <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button</item>
         <item name="android:textAppearance">@style/TextAppearance.App.Button</item>
     </style>
