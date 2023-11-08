@@ -12,10 +12,11 @@ import com.iamkamrul.ui.extension.setUpGridRecyclerViewAdapter
 class MaterialHomeFragment : BaseFragment<FragmentMaterialHomeBinding>(){
     override fun viewBindingLayout(): FragmentMaterialHomeBinding = FragmentMaterialHomeBinding.inflate(layoutInflater)
 
-    private val features = listOf("Menu")
+    private val features = listOf("Menu","Button")
     private val adapter by lazy { FeaturesComponentAdapter{position->
         when(position) {
             0 -> navigate(MaterialHomeFragmentDirections.actionMaterialHomeFragmentToMenuFragment())
+            1 -> navigate(MaterialHomeFragmentDirections.actionMaterialHomeFragmentToButtonFragment())
         }
     }}
 

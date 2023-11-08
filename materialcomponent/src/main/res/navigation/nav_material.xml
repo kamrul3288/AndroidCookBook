@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_materialHomeFragment_to_menuFragment"
             app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_materialHomeFragment_to_buttonFragment"
+            app:destination="@id/buttonFragment" />
     </fragment>
 
     <fragment
@@ -20,4 +23,9 @@
         tools:layout="@layout/fragment_menu"
         android:name="com.iamkamrul.material.MenuFragment"
         android:label="MenuFragment" />
+    <fragment
+        android:id="@+id/buttonFragment"
+        tools:layout="@layout/fragment_button"
+        android:name="com.iamkamrul.material.ButtonFragment"
+        android:label="ButtonFragment" />
 </navigation>

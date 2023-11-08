@@ -37,7 +37,7 @@
 
     <Button
         android:id="@+id/popUpMenuBtn"
-        style="@style/Widget.App.Button.Filled"
+        style="@style/Ds.Button.FilledRounded"
         android:text="Show Menu"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

@@ -18,7 +18,7 @@
     <Button
         android:id="@+id/loginBtn"
         android:text="Login Now"
-        style="@style/Widget.App.Button.Filled"
+        style="@style/Ds.Button.FilledRounded"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"

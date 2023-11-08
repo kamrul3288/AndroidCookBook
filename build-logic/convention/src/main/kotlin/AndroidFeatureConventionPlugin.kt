@@ -53,7 +53,7 @@ class AndroidFeatureConventionPlugin : Plugin<Project> {
                 add("implementation", libs.findLibrary("dimension.ssp").get())
 
                 add("implementation", libs.findLibrary("kamrul3288.viewstate").get())
-                add("implementation", libs.findLibrary("kamrul3288.customview").get())
+                //add("implementation", libs.findLibrary("kamrul3288.customview").get())
                 add("implementation", libs.findLibrary("kamrul3288.dateced").get())
 
                 add("implementation", libs.findLibrary("kotlinx.coroutines.android").get())

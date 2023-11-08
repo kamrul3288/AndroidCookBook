@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".SignupFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <include
         android:id="@+id/incTopAppbarLayout"
@@ -28,7 +27,7 @@
 
     <Button
         android:id="@+id/loginNowBtn"
-        style="@style/Widget.App.Button.Filled"
+        style="@style/Ds.Button.FilledRounded"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"

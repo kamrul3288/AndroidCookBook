@@ -10,6 +10,7 @@
         <item name="fontFamily">@font/inter_regular</item>
         <!--card color-->
         <item name="colorSurface">@color/white</item>
+        <item name="elevationOverlayEnabled">false</item>
 
     </style>
 </resources>
