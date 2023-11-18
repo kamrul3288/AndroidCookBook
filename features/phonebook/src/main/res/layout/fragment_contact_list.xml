@@ -11,16 +11,34 @@
         android:id="@+id/incTopAppBar"
         layout="@layout/top_appbar_center_titled"/>
 
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/searchInputLayout"
+        android:layout_width="0dp"
+        android:layout_margin="16dp"
+        app:placeholderText="Search..."
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/incTopAppBar">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/searchET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/contactsRv"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginTop="16dp"
         android:paddingHorizontal="@dimen/_16sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/incTopAppBar"
-        tools:listitem="@layout/item_contact_list"/>
+        app:layout_constraintTop_toBottomOf="@+id/searchInputLayout"
+        tools:listitem="@layout/item_contact_list" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

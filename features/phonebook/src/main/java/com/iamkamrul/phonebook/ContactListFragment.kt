@@ -5,12 +5,15 @@ import android.os.Bundle
 import android.provider.ContactsContract
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.lifecycle.lifecycleScope
 import com.iamkamrul.phonebook.databinding.FragmentContactListBinding
 import com.iamkamrul.ui.base.BaseFragment
+import com.iamkamrul.ui.extension.debounce
 import com.iamkamrul.ui.extension.navigateAppPermissionSettings
 import com.iamkamrul.ui.extension.popBack
 import com.iamkamrul.ui.extension.setUpVerticalRecyclerViewAdapter
 import com.iamkamrul.ui.extension.showAlertDialog
+import timber.log.Timber
 
 
 class ContactListFragment : BaseFragment<FragmentContactListBinding>() {
@@ -30,6 +33,18 @@ class ContactListFragment : BaseFragment<FragmentContactListBinding>() {
         configureTopAppbar()
         requireContext().setUpVerticalRecyclerViewAdapter(binding.contactsRv,adapter)
         checkReadPhoneNumberPermission()
+
+        binding.searchET.debounce(500L,lifecycleScope){ it ->
+            val filterText = it.toString()
+            if (filterText.isNotEmpty()){
+               val result = contactSections.filter {
+                   it.name.lowercase().contains(filterText.lowercase()) || it.phoneNumber.lowercase().contains(filterText.lowercase())
+               }
+                adapter.submitList(result)
+           }else{
+                adapter.submitList(contactSections)
+           }
+        }
     }
 
     private fun checkReadPhoneNumberPermission(){
@@ -93,6 +108,8 @@ class ContactListFragment : BaseFragment<FragmentContactListBinding>() {
         }
         adapter.submitList(contactSections)
     }
+
+
 
     private fun configureTopAppbar(){
         binding.incTopAppBar.topAppBar.title = "Contacts"
