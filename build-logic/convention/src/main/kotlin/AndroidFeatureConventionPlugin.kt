@@ -47,7 +47,6 @@ class AndroidFeatureConventionPlugin : Plugin<Project> {
                 add("implementation", libs.findLibrary("androidx.lifecycle.viewmodel.savedstate").get())
                 add("implementation", libs.findLibrary("androidx.lifecycle.runtime").get())
                 add("implementation", libs.findLibrary("androidx.lifecycle.commonjava8").get())
-                add("implementation", libs.findLibrary("image.picasso").get())
                 add("implementation", libs.findLibrary("log.timber").get())
                 add("implementation", libs.findLibrary("dimension.sdp").get())
                 add("implementation", libs.findLibrary("dimension.ssp").get())

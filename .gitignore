@@ -21,3 +21,4 @@ local.properties
 /.idea/kotlinc.xml
 /build-logic/convention/build/
 /.idea/
+/build-logic/build/kotlin/sessions/kotlin-compiler-1418370324871453916.salive
