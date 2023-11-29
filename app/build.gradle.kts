@@ -1,7 +1,8 @@
+@Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
-    id("iamkamrul.android.application")
-    id("iamkamrul.android.hilt")
-    id("iamkamrul.android.navigation")
+    alias(libs.plugins.iamkamrul.android.application)
+    alias(libs.plugins.iamkamrul.android.hilt)
+    alias(libs.plugins.iamkamrul.android.navigation)
 }
 
 android {
@@ -34,26 +35,18 @@ android {
 }
 
 dependencies {
-    implementation(project(":common"))
-    implementation(project(":core:ui"))
-    implementation(project(":core:designsystem"))
-    implementation(project(":core:di"))
+    implementation(projects.common)
+    implementation(projects.core.ui)
+    implementation(projects.core.designsystem)
+    implementation(projects.core.di)
 
-    implementation(project(":navigationcomponent:login"))
-    implementation(project(":navigationcomponent:otpverify"))
-    implementation(project(":navigationcomponent:signup"))
+    implementation(projects.navigationcomponent.login)
+    implementation(projects.navigationcomponent.otpverify)
+    implementation(projects.navigationcomponent.signup)
 
-    implementation(project(":features:phonebook"))
-    implementation(project(":materialcomponent"))
+    implementation(projects.features.phonebook)
+    implementation(projects.materialcomponent)
 
-    implementation(libs.androidx.appcompat)
-    implementation(libs.androidx.corektx)
-    implementation(libs.androidx.material)
-    implementation(libs.androidx.fragment)
-    implementation(libs.androidx.activity)
-    implementation(libs.androidx.recyclerview)
-    implementation(libs.androidx.cardview)
-    implementation(libs.androidx.constraintlayout)
     implementation(libs.log.timber)
 
     testImplementation(libs.test.junit)

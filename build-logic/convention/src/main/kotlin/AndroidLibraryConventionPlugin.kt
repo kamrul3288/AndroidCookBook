@@ -21,20 +21,8 @@ class AndroidLibraryConventionPlugin : Plugin<Project> {
             extensions.configure<LibraryExtension> {
                 configureKotlinAndroid(this)
                 defaultConfig.targetSdk = 34
-                //configureFlavors(this)
-                //configureGradleManagedDevices(this)
             }
-            extensions.configure<LibraryAndroidComponentsExtension> {
-                //configurePrintApksTask(this)
-                //disableUnnecessaryAndroidTests(target)
-            }
-            configurations.configureEach {
-                resolutionStrategy {
-                    force(libs.findLibrary("test.junit").get())
-                    // Temporary workaround for https://issuetracker.google.com/174733673
-                    force("org.objenesis:objenesis:2.6")
-                }
-            }
+
             dependencies {
                 add("androidTestImplementation", kotlin("test"))
                 add("testImplementation", kotlin("test"))

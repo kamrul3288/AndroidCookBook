@@ -61,6 +61,11 @@ gradlePlugin {
             implementationClass = "AndroidNavigationComponentConventionPlugin"
         }
 
+        register("androidHiltWork") {
+            id = "iamkamrul.android.hilt.work"
+            implementationClass = "AndroidHiltWorkConventionPlugin"
+        }
+
         register("androidFirebase") {
             id = "iamkamrul.android.firebase"
             implementationClass = "AndroidApplicationFirebaseConventionPlugin"

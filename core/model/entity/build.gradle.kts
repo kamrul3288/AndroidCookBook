@@ -1,3 +1,5 @@
+@Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
-    id("iamkamrul.jvm.library")
+    alias(libs.plugins.iamkamrul.jvm.library)
 }
+true

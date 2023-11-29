@@ -1,7 +1,7 @@
+@Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
-    id("iamkamrul.android.feature")
+    alias(libs.plugins.iamkamrul.android.feature)
 }
-
 android {
     namespace = "com.iamkamrul.navigation.singup"
 }

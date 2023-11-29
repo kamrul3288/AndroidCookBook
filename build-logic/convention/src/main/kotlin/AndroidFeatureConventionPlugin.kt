@@ -22,7 +22,6 @@ class AndroidFeatureConventionPlugin : Plugin<Project> {
                 buildFeatures {
                     viewBinding = true
                 }
-                //configureGradleManagedDevices(this)
             }
 
             dependencies {
@@ -63,8 +62,6 @@ class AndroidFeatureConventionPlugin : Plugin<Project> {
                 //add("testImplementation", project(":core:testing"))
                 add("androidTestImplementation", kotlin("test"))
                 //add("androidTestImplementation", project(":core:testing"))
-
-
             }
         }
     }

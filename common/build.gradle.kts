@@ -1,5 +1,6 @@
+@Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
-   id("iamkamrul.android.library")
+   alias(libs.plugins.iamkamrul.android.library)
 }
 
 android {
@@ -8,7 +9,6 @@ android {
 
 dependencies {
     implementation(libs.androidx.corektx)
-
 
     testImplementation(libs.test.junit)
     androidTestImplementation(libs.test.extjunit)

@@ -23,7 +23,7 @@ dependencyResolutionManagement {
     }
 }
 
-
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 rootProject.name = "AndroidCookBook"
 include(":app")
 include(":core:designsystem")

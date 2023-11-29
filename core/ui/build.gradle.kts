@@ -1,5 +1,6 @@
+@Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
-    id("iamkamrul.android.library")
+    alias(libs.plugins.iamkamrul.android.library)
 }
 
 android {
@@ -12,21 +13,17 @@ android {
 dependencies {
     implementation(project(":core:designsystem"))
 
-    implementation(libs.androidx.corektx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.androidx.material)
-    implementation(libs.androidx.activity)
-    implementation(libs.androidx.fragment)
-    implementation(libs.androidx.cardview)
-    implementation(libs.androidx.navigation.ui)
-    implementation(libs.androidx.navigation.ktx)
-    implementation(libs.androidx.constraintlayout)
-
-
-    implementation(libs.androidx.lifecycle.viewmodel.ktx)
-    implementation(libs.kotlinx.coroutines.android)
-
-
+    api(libs.androidx.corektx)
+    api(libs.androidx.appcompat)
+    api(libs.androidx.material)
+    api(libs.androidx.activity)
+    api(libs.androidx.fragment)
+    api(libs.androidx.cardview)
+    api(libs.androidx.navigation.ui)
+    api(libs.androidx.navigation.ktx)
+    api(libs.androidx.constraintlayout)
+    api(libs.androidx.lifecycle.viewmodel.ktx)
+    api(libs.kotlinx.coroutines.android)
 
     testImplementation(libs.test.junit)
     androidTestImplementation(libs.test.extjunit)
