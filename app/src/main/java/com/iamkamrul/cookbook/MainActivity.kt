@@ -1,7 +1,5 @@
 package com.iamkamrul.cookbook
 
-import android.annotation.SuppressLint
-import android.content.Intent
 import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
@@ -17,15 +15,14 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
     override fun initializeView(savedInstanceState: Bundle?) {
         val navHostFragment = supportFragmentManager.findFragmentById(binding.mainNavHost.id) as NavHostFragment
         navController = navHostFragment.navController
-        onNewIntent(intent)
+        navController.handleDeepLink(intent)
     }
 
     //implement implicit deeplink example.com/kamrul
     // then navigate to singup fragment
-    @SuppressLint("MissingSuperCall")
-    override fun onNewIntent(intent: Intent?) {
-        super.onNewIntent(intent)
-        navController.handleDeepLink(intent)
-    }
+//    override fun onNewIntent(intent: Intent?) {
+//        super.onNewIntent(intent)
+//        navController.handleDeepLink(intent)
+//    }
 
 }
