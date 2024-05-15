@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_materialHomeFragment_to_buttonFragment"
             app:destination="@id/buttonFragment" />
+        <action
+            android:id="@+id/action_materialHomeFragment_to_viewPagerCarouselFragment"
+            app:destination="@id/viewPagerCarouselFragment" />
     </fragment>
 
     <fragment
@@ -28,4 +31,8 @@
         tools:layout="@layout/fragment_button"
         android:name="com.iamkamrul.material.ButtonFragment"
         android:label="ButtonFragment" />
+    <fragment
+        android:id="@+id/viewPagerCarouselFragment"
+        android:name="com.iamkamrul.material.ViewPagerCarouselFragment"
+        android:label="ViewPagerCarouselFragment" />
 </navigation>
