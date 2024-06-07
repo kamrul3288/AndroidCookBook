@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_third_party_lib"
+    app:startDestination="@id/tplHomeFragment">
+
+    <fragment
+        android:id="@+id/tplHomeFragment"
+        tools:layout="@layout/fragment_tpl_home"
+        android:name="com.iamkamrul.tpl.TplHomeFragment"
+        android:label="TplHomeFragment" >
+        <action
+            android:id="@+id/action_tplHomeFragment_to_signalrFragment"
+            app:destination="@id/signalrFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signalrFragment"
+        android:name="com.iamkamrul.tpl.signalr.SignalrFragment"
+        android:label="fragment_signalr"
+        tools:layout="@layout/fragment_signalr" />
+</navigation>

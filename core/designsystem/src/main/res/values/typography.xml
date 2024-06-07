@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="DisplayLarge" parent="TextAppearance.Material3.DisplayLarge">
+    <style name="DS.Typo.DisplayLarge" parent="TextAppearance.Material3.DisplayLarge">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">57sp</item>
         <item name="android:fontFamily">@font/inter_regular</item>
@@ -9,28 +9,28 @@
 
     </style>
 
-    <style name="DisplayMedium" parent="TextAppearance.Material3.DisplayMedium">
+    <style name="DS.Typo.DisplayMedium" parent="TextAppearance.Material3.DisplayMedium">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">45sp</item>
         <item name="android:fontFamily">@font/inter_regular</item>
         <item name="fontFamily">@font/inter_regular</item>
     </style>
 
-    <style name="DisplaySmall" parent="TextAppearance.Material3.DisplaySmall">
+    <style name="DS.Typo.DisplaySmall" parent="TextAppearance.Material3.DisplaySmall">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">36sp</item>
         <item name="android:fontFamily">@font/inter_regular</item>
         <item name="fontFamily">@font/inter_regular</item>
     </style>
 
-    <style name="HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+    <style name="DS.Typo.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">32sp</item>
         <item name="android:fontFamily">@font/inter_regular</item>
         <item name="fontFamily">@font/inter_regular</item>
     </style>
 
-    <style name="HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+    <style name="DS.Typo.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">28sp</item>
         <item name="android:fontFamily">@font/inter_regular</item>
@@ -38,7 +38,7 @@
     </style>
 
 
-    <style name="HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+    <style name="DS.Typo.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">24sp</item>
         <item name="android:fontFamily">@font/inter_regular</item>
@@ -47,25 +47,25 @@
 
 
 
-    <style name="TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+    <style name="DS.Typo.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">22sp</item>
         <item name="android:fontFamily">@font/inter_regular</item>
         <item name="fontFamily">@font/inter_regular</item>
     </style>
-    <style name="TitleLargeMedium" parent="TextAppearance.Material3.TitleLarge">
+    <style name="DS.Typo.TitleLargeMedium" parent="TextAppearance.Material3.TitleLarge">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">22sp</item>
         <item name="android:fontFamily">@font/inter_medium</item>
         <item name="fontFamily">@font/inter_medium</item>
     </style>
-    <style name="TitleLargeSemiBold" parent="TextAppearance.Material3.TitleLarge">
+    <style name="DS.Typo.TitleLargeSemiBold" parent="TextAppearance.Material3.TitleLarge">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">22sp</item>
         <item name="android:fontFamily">@font/inter_semi_bold</item>
         <item name="fontFamily">@font/inter_semi_bold</item>
     </style>
-    <style name="TitleLargeBold" parent="TextAppearance.Material3.TitleLarge">
+    <style name="DS.Typo.TitleLargeBold" parent="TextAppearance.Material3.TitleLarge">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">22sp</item>
         <item name="fontFamily">@font/inter_bold</item>
@@ -74,25 +74,25 @@
 
 
 
-    <style name="TitleMediumRegular" parent="TextAppearance.Material3.TitleMedium">
+    <style name="DS.Typo.TitleMediumRegular" parent="TextAppearance.Material3.TitleMedium">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">18sp</item>
         <item name="android:fontFamily">@font/inter_regular</item>
         <item name="fontFamily">@font/inter_regular</item>
     </style>
-    <style name="TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+    <style name="DS.Typo.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">18sp</item>
         <item name="android:fontFamily">@font/inter_medium</item>
         <item name="fontFamily">@font/inter_medium</item>
     </style>
-    <style name="TitleMediumSemiBold" parent="TextAppearance.Material3.TitleMedium">
+    <style name="DS.Typo.TitleMediumSemiBold" parent="TextAppearance.Material3.TitleMedium">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">18sp</item>
         <item name="android:fontFamily">@font/inter_semi_bold</item>
         <item name="fontFamily">@font/inter_semi_bold</item>
     </style>
-    <style name="TitleMediumBold" parent="TextAppearance.Material3.TitleMedium">
+    <style name="DS.Typo.TitleMediumBold" parent="TextAppearance.Material3.TitleMedium">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">18sp</item>
         <item name="android:fontFamily">@font/inter_bold</item>
@@ -100,25 +100,25 @@
     </style>
 
 
-    <style name="TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+    <style name="DS.Typo.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">16sp</item>
         <item name="android:fontFamily">@font/inter_regular</item>
         <item name="fontFamily">@font/inter_regular</item>
     </style>
-    <style name="TitleSmallMedium" parent="TextAppearance.Material3.TitleSmall">
+    <style name="DS.Typo.TitleSmallMedium" parent="TextAppearance.Material3.TitleSmall">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">16sp</item>
         <item name="android:fontFamily">@font/inter_medium</item>
         <item name="fontFamily">@font/inter_medium</item>
     </style>
-    <style name="TitleSmallSemiBold" parent="TextAppearance.Material3.TitleSmall">
+    <style name="DS.Typo.TitleSmallSemiBold" parent="TextAppearance.Material3.TitleSmall">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">16sp</item>
         <item name="android:fontFamily">@font/inter_semi_bold</item>
         <item name="fontFamily">@font/inter_semi_bold</item>
     </style>
-    <style name="TitleSmallBold" parent="TextAppearance.Material3.TitleSmall">
+    <style name="DS.Typo.TitleSmallBold" parent="TextAppearance.Material3.TitleSmall">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">16sp</item>
         <item name="android:fontFamily">@font/inter_bold</item>
@@ -126,25 +126,25 @@
     </style>
 
 
-    <style name="BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+    <style name="DS.Typo.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">16sp</item>
         <item name="android:fontFamily">@font/inter_regular</item>
         <item name="fontFamily">@font/inter_regular</item>
     </style>
-    <style name="BodyLargeMedium" parent="TextAppearance.Material3.BodyLarge">
+    <style name="DS.Typo.BodyLargeMedium" parent="TextAppearance.Material3.BodyLarge">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">16sp</item>
         <item name="android:fontFamily">@font/inter_medium</item>
         <item name="fontFamily">@font/inter_medium</item>
     </style>
-    <style name="BodyLargeSemiBold" parent="TextAppearance.Material3.BodyLarge">
+    <style name="DS.Typo.BodyLargeSemiBold" parent="TextAppearance.Material3.BodyLarge">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">16sp</item>
         <item name="android:fontFamily">@font/inter_semi_bold</item>
         <item name="fontFamily">@font/inter_semi_bold</item>
     </style>
-    <style name="BodyLargeBold" parent="TextAppearance.Material3.BodyLarge">
+    <style name="DS.Typo.BodyLargeBold" parent="TextAppearance.Material3.BodyLarge">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">16sp</item>
         <item name="android:fontFamily">@font/inter_bold</item>
@@ -152,79 +152,25 @@
     </style>
 
 
-    <style name="BodyMediumRegular" parent="TextAppearance.Material3.BodyMedium">
+    <style name="DS.Typo.BodyMediumRegular" parent="TextAppearance.Material3.BodyMedium">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">14sp</item>
         <item name="android:fontFamily">@font/inter_regular</item>
         <item name="fontFamily">@font/inter_regular</item>
     </style>
-    <style name="BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+    <style name="DS.Typo.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">14sp</item>
         <item name="android:fontFamily">@font/inter_medium</item>
         <item name="fontFamily">@font/inter_medium</item>
     </style>
-    <style name="BodyMediumSemiBold" parent="TextAppearance.Material3.BodyMedium">
+    <style name="DS.Typo.BodyMediumSemiBold" parent="TextAppearance.Material3.BodyMedium">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">14sp</item>
         <item name="android:fontFamily">@font/inter_semi_bold</item>
         <item name="fontFamily">@font/inter_semi_bold</item>
     </style>
-    <style name="BodyMediumBold" parent="TextAppearance.Material3.BodyMedium">
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:fontFamily">@font/inter_bold</item>
-        <item name="fontFamily">@font/inter_bold</item>
-    </style>
-
-
-
-    <style name="BodySmall" parent="TextAppearance.Material3.BodySmall">
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:fontFamily">@font/inter_regular</item>
-        <item name="fontFamily">@font/inter_regular</item>
-    </style>
-    <style name="BodySmallMedium" parent="TextAppearance.Material3.BodySmall">
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:fontFamily">@font/inter_medium</item>
-        <item name="fontFamily">@font/inter_medium</item>
-    </style>
-    <style name="BodySmallSemiBold" parent="TextAppearance.Material3.BodySmall">
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:fontFamily">@font/inter_semi_bold</item>
-        <item name="fontFamily">@font/inter_semi_bold</item>
-    </style>
-    <style name="BodySmallBold" parent="TextAppearance.Material3.BodySmall">
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:fontFamily">@font/inter_bold</item>
-        <item name="fontFamily">@font/inter_bold</item>
-    </style>
-
-
-
-    <style name="LabelLarge" parent="TextAppearance.Material3.LabelLarge">
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:fontFamily">@font/inter_regular</item>
-        <item name="fontFamily">@font/inter_regular</item>
-    </style>
-    <style name="LabelLargeMedium" parent="TextAppearance.Material3.LabelLarge">
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:fontFamily">@font/inter_medium</item>
-        <item name="fontFamily">@font/inter_medium</item>
-    </style>
-    <style name="LabelLargeSemiBold" parent="TextAppearance.Material3.LabelLarge">
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:fontFamily">@font/inter_semi_bold</item>
-        <item name="fontFamily">@font/inter_semi_bold</item>
-    </style>
-    <style name="LabelLargeBold" parent="TextAppearance.Material3.LabelLarge">
+    <style name="DS.Typo.BodyMediumBold" parent="TextAppearance.Material3.BodyMedium">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">14sp</item>
         <item name="android:fontFamily">@font/inter_bold</item>
@@ -233,22 +179,76 @@
 
 
 
-    <style name="LabelMediumRegular" parent="TextAppearance.Material3.LabelMedium">
+    <style name="DS.Typo.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="fontFamily">@font/inter_regular</item>
+    </style>
+    <style name="DS.Typo.BodySmallMedium" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="fontFamily">@font/inter_medium</item>
+    </style>
+    <style name="DS.Typo.BodySmallSemiBold" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/inter_semi_bold</item>
+        <item name="fontFamily">@font/inter_semi_bold</item>
+    </style>
+    <style name="DS.Typo.BodySmallBold" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+
+
+
+    <style name="DS.Typo.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="fontFamily">@font/inter_regular</item>
+    </style>
+    <style name="DS.Typo.LabelLargeMedium" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="fontFamily">@font/inter_medium</item>
+    </style>
+    <style name="DS.Typo.LabelLargeSemiBold" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/inter_semi_bold</item>
+        <item name="fontFamily">@font/inter_semi_bold</item>
+    </style>
+    <style name="DS.Typo.LabelLargeBold" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="fontFamily">@font/inter_bold</item>
+    </style>
+
+
+
+    <style name="DS.Typo.LabelMediumRegular" parent="TextAppearance.Material3.LabelMedium">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">12sp</item>
         <item name="android:fontFamily">@font/inter_regular</item>
     </style>
-    <style name="LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+    <style name="DS.Typo.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">12sp</item>
         <item name="android:fontFamily">@font/inter_medium</item>
     </style>
-    <style name="LabelMediumSemiBold" parent="TextAppearance.Material3.LabelMedium">
+    <style name="DS.Typo.LabelMediumSemiBold" parent="TextAppearance.Material3.LabelMedium">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">12sp</item>
         <item name="android:fontFamily">@font/inter_semi_bold</item>
     </style>
-    <style name="LabelMediumBold" parent="TextAppearance.Material3.LabelMedium">
+    <style name="DS.Typo.LabelMediumBold" parent="TextAppearance.Material3.LabelMedium">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">12sp</item>
         <item name="android:fontFamily">@font/inter_bold</item>
@@ -256,22 +256,22 @@
 
     
 
-    <style name="LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+    <style name="DS.Typo.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">11sp</item>
         <item name="android:fontFamily">@font/inter_regular</item>
     </style>
-    <style name="LabelSmallMedium" parent="TextAppearance.Material3.LabelSmall">
+    <style name="DS.Typo.LabelSmallMedium" parent="TextAppearance.Material3.LabelSmall">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">11sp</item>
         <item name="android:fontFamily">@font/inter_medium</item>
     </style>
-    <style name="LabelSmallSemiBold" parent="TextAppearance.Material3.LabelSmall">
+    <style name="DS.Typo.LabelSmallSemiBold" parent="TextAppearance.Material3.LabelSmall">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">11sp</item>
         <item name="android:fontFamily">@font/inter_semi_bold</item>
     </style>
-    <style name="LabelSmallBold" parent="TextAppearance.Material3.LabelSmall">
+    <style name="DS.Typo.LabelSmallBold" parent="TextAppearance.Material3.LabelSmall">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">11sp</item>
         <item name="android:fontFamily">@font/inter_bold</item>

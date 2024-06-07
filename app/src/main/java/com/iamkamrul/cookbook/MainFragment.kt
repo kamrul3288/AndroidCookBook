@@ -11,12 +11,13 @@ class MainFragment : BaseFragment<FragmentMainBinding>() {
     override fun viewBindingLayout(): FragmentMainBinding  =
         FragmentMainBinding.inflate(layoutInflater)
 
-    private val features = listOf("Navigation", "Material Component", "PhoneBook")
+    private val features = listOf("Navigation", "Material Component", "Third Party Library","PhoneBook")
     private val adapter by lazy { FeaturesComponentAdapter{position->
         when(position){
             0 -> navigate(MainFragmentDirections.actionMainFragmentToLoginFragment())
             1 -> navigate(MainFragmentDirections.actionMainFragmentToNavMaterial())
-            2 -> navigate(MainFragmentDirections.actionMainFragmentToContactListFragment())
+            2 -> navigate(MainFragmentDirections.actionMainFragmentToNavThirdPartyLib())
+            3 -> navigate(MainFragmentDirections.actionMainFragmentToContactListFragment())
         }
     }}
 

@@ -2,7 +2,7 @@
 <TextView
     android:id="@+id/titleTv"
     tools:text="A"
-    style="@style/LabelLargeBold"
+    style="@style/DS.Typo.LabelLargeBold"
     android:layout_marginBottom="16dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"

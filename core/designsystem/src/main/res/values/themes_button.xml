@@ -17,40 +17,40 @@
 
     <!--button style start here-->
     <style name="Ds.Button.ElevatedButton" parent="Widget.Material3.Button.ElevatedButton">
-        <item name="android:textAppearance">@style/LabelLarge</item>
+        <item name="android:textAppearance">@style/DS.Typo.LabelLarge</item>
         <item name="materialThemeOverlay">@style/MaterialThemeOverlay.App.ElevatedButton</item>
     </style>
 
     <style name="Ds.Button.ElevatedButton.Icon" parent="Widget.Material3.Button.ElevatedButton.Icon">
-        <item name="android:textAppearance">@style/LabelLarge</item>
+        <item name="android:textAppearance">@style/DS.Typo.LabelLarge</item>
         <item name="materialThemeOverlay">@style/MaterialThemeOverlay.App.ElevatedButton</item>
     </style>
 
     <style name="Ds.Button.FilledRounded" parent="Widget.Material3.Button">
         <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button</item>
-        <item name="android:textAppearance">@style/LabelLarge</item>
+        <item name="android:textAppearance">@style/DS.Typo.LabelLarge</item>
     </style>
 
     <style name="Ds.Button.TonalButton" parent="Widget.Material3.Button.TonalButton">
         <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button</item>
-        <item name="android:textAppearance">@style/LabelLarge</item>
+        <item name="android:textAppearance">@style/DS.Typo.LabelLarge</item>
     </style>
 
     <style name="Ds.Button.OutlinedButton" parent="Widget.Material3.Button.OutlinedButton">
-        <item name="android:textAppearance">@style/LabelLarge</item>
+        <item name="android:textAppearance">@style/DS.Typo.LabelLarge</item>
         <item name="android:textColor">@color/black</item>
         <item name="strokeColor">@color/primary</item>
     </style>
 
     <style name="Ds.Button.Filled" parent="Widget.Material3.Button">
         <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button</item>
-        <item name="android:textAppearance">@style/LabelLarge</item>
+        <item name="android:textAppearance">@style/DS.Typo.LabelLarge</item>
         <item name="cornerRadius">@dimen/_5sdp</item>
     </style>
 
     <style name="Ds.Button.Text" parent="Widget.Material3.Button.TextButton">
         <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button.Text</item>
-        <item name="android:textAppearance">@style/LabelLarge</item>
+        <item name="android:textAppearance">@style/DS.Typo.LabelLarge</item>
     </style>
 
 

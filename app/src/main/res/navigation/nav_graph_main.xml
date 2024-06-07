@@ -8,6 +8,7 @@
     <include app:graph="@navigation/nav_otp_verify"/>
     <include app:graph="@navigation/nav_signup"/>
     <include app:graph="@navigation/nav_material"/>
+    <include app:graph="@navigation/nav_third_party_lib"/>
 
     <fragment
         android:id="@+id/mainFragment"
@@ -23,6 +24,11 @@
         <action
             android:id="@+id/action_mainFragment_to_nav_material"
             app:destination="@id/nav_material" />
+
+        <action
+            android:id="@+id/action_mainFragment_to_nav_third_party_lib"
+            app:destination="@id/nav_third_party_lib" />
+
     </fragment>
 
     <fragment

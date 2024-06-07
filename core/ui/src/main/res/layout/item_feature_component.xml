@@ -12,7 +12,7 @@
     <TextView
         android:id="@+id/nameTv"
         tools:text="Material Component"
-        style="@style/TitleSmallSemiBold"
+        style="@style/DS.Typo.TitleSmallSemiBold"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

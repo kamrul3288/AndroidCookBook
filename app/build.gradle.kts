@@ -46,6 +46,7 @@ dependencies {
 
     implementation(projects.features.phonebook)
     implementation(projects.materialcomponent)
+    implementation(projects.thirdPartyLibrary)
 
     implementation(libs.log.timber)
 
